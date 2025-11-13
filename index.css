@@ -1,17 +1,18 @@
 body {
-  background-image: url("abstract.jpg");
-  background-size: cover;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  text-align: center;
-  height: 100vh;
+  margin: 0;
+  background: linear-gradient(black, rgb(255, 246, 193));
 }
 
 .container {
-  background: white;
-  max-width: 80%;
-  margin: auto;
-  border: 3px solid black;
-  border-radius: 10px;
+  background-image: url("https://t3.ftcdn.net/jpg/02/90/46/84/360_F_290468474_6yJ9eBPW2wevarR9cbXN87TCFJDVVuAR.jpg");
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  height: 50%;
+  max-width: 50%;
+  color: black;
+  margin: 0 auto;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -46,4 +47,8 @@ button {
 
 #save-el {
   font-weight: bold;
+}
+
+#reset-btn{
+  background-color: rgb(130, 11, 11);
 }
